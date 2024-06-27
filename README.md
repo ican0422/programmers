@@ -1,2 +1,4 @@
 # programmers
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+지금까지 풀어본 프로그래머스 문제 및 풀이를 자동 커밋으로 연결시킨 깃 허브 입니다.
+
+이걸 통해서 스스로 공부하고 코딩의 능력을 향상시키는 목적으로 만들었습니다.
