@@ -1,18 +1,11 @@
 class Solution {
     public String solution(String phone_number) {
-        String answer = "";
-        char secret = '*';
-        int numChar = 4;
-        int length = phone_number.length();
+        char[] phone = phone_number.toCharArray();
         
-        for(int i = 0; i < length; i++){
-            if(i < length - numChar){
-                answer += secret;
-            } else {
-                answer += phone_number.charAt(i);
-            }
+        for(int i = 0; i < phone.length - 4; i++){
+            phone[i] = '*';
         }
         
-        return answer;
+        return String.valueOf(phone);
     }
 }
